@@ -4,14 +4,12 @@ import 'firebase/compat/firestore';
 const settings = {timestampsInSnapshots: true};
 
 const config = {
-  apiKey: "AIzaSyB1dW-X5MnIVbktbSeyeNinfvrsV0G8WYo",
-  authDomain: "flutterfirebase-2be5d.firebaseapp.com",
-  databaseURL: "https://flutterfirebase-2be5d-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "flutterfirebase-2be5d",
-  storageBucket: "flutterfirebase-2be5d.appspot.com",
-  messagingSenderId: "688280762161",
-  appId: "1:688280762161:web:cceb1284e1cd0bfcb86210",
-  measurementId: "G-C8CXTNMWFG"
+  apiKey: "AIzaSyCNbtAvgQdgDHfnc5ymZPEocGw0floCw0I",
+  authDomain: "reactfirestore-1e911.firebaseapp.com",
+  projectId: "reactfirestore-1e911",
+  storageBucket: "reactfirestore-1e911.appspot.com",
+  messagingSenderId: "495733106478",
+  appId: "1:495733106478:web:d10c459e142e6b665cbcbf"
 };
 firebase.initializeApp(config);
 firebase.firestore().settings(settings);
